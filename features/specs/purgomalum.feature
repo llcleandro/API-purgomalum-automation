@@ -29,7 +29,7 @@ Scenario: Service GET - with parameters: "text" + "add one word
 Scenario: Service GET - with parameters: "text" + "add" with many word 
 	When send request "json" whith parameter "text=teste coelho purgomalum&add=coelho, purgomalum"
 	Then response "200" should be returned
-	Then the result should be "teste ****** *****"
+	Then the result should be "teste ****** **********"
 
 @6 @errorMessage
 Scenario: Service GET - with parameters: "text" + "add" with many word using invalid character (;)
