@@ -1,6 +1,6 @@
-# Flow for Tests API Purgomalum
+# Peformance Tests using API Rest PurgoMalum
 
-This Tests use the BDD framework is based in Ruby + Cucumber + HTTParty.
+This sample use JMeter.
 
 ## Dependencies
 
@@ -9,6 +9,7 @@ This Tests use the BDD framework is based in Ruby + Cucumber + HTTParty.
 * httparty
 * pry
 * rspec
+* PurgoMalum
 
 ## Installation Instructions
 
@@ -40,3 +41,8 @@ type: $API-purgomalum-automation>cucumber features\specs\purgomalum.feature --ta
 ## View Report
 Report is generated in $API-purgomalum-automation\reports in html format
 - $API-purgomalum-automation\reports\execution_report.html
+
+## PurgoMalum
+
+* PurgoMalum is a simple, free, RESTful web service for filtering and removing content of profanity, obscenity and other unwanted text. PurgoMalum's interface accepts several parameters for customization and can return results in plain text, XML and JSON. 
+* See more in http://www.purgomalum.com/
