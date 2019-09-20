@@ -1,6 +1,6 @@
 # Peformance Tests using API Rest PurgoMalum
 
-This sample use JMeter.
+This Tests, using the BDD framework Cucumber + HTTParty to provide documentation to automated tests.
 
 ## Dependencies
 
@@ -22,7 +22,8 @@ This sample use JMeter.
 ## Suport Tools
 
 * from Windows use: https://rubyinstaller.org/
-* from MAC or LINUX use: https://bddsemcomplicacao.blogspot.com/2019/07/criando-um-projeto-no-mac-os-do-zero.html
+* from MAC use: https://bddsemcomplicacao.blogspot.com/2019/07/criando-um-projeto-no-mac-os-do-zero.html
+* from Linux use: https://bddsemcomplicacao.blogspot.com/2019/09/criando-um-projeto-no-linux-ubuntu-do.html
 
 ## Run Tests
 
